@@ -10,6 +10,9 @@ L’idée du blog ayant été abandonnée au profit d’un channel #News dans Di
 - 21 avril 2012 : le serveur est public
 - Quelques heures plus tard : premier grief
 - 10 mai 2012 : premier post sur le « blog » Fritecraft pour présenter la Dynmap. On reconnait plus ou moins la forme de Bouquenia !
+
+![La Dynmap de Bouquenia en 2012](../../../assets/wiki/dynmap-2012-05.jpg)
+
 - Mai 2012 : le premier Event du serveur, la nuit des morts-vivants ! Pendant la nuit perpétuelle pendant 3 jours, les spawns de squelettes et zombies étaient autorisés dans le village.
 - Juin 2012 : premier concours créatif, la construction d’un Phare pour Bouquenia.
 - 12 aout 2012 : Souffrances avec le passage en 1.3, seuls 4 des 12 « plugins indispensables » sont encore utilisés par le serveurs. Parmi les 8 autres, on retrouve Essentials, LWC ou encore PermissionsEx
@@ -28,6 +31,9 @@ L’idée du blog ayant été abandonnée au profit d’un channel #News dans Di
 - 1er juin 2015 : Nouvelle vidéo de présentation de Bouquenia
 - Juillet 2015 : création d’un nouveau pack alternatif uniquement destiné aux donjons. Ce pack utilise les techniques de CTM d’Optifine pour construire des textures sur plusieurs blocs. Les textures des premiers jeux Tomb Raider ont été utilisées pour la construction du pack expérimental, mais il ne sera jamais utilisé. Deux vidéos de démo seront créées.
 - Décembre 2015 : création d’un subreddit et abandon du blog Fritecraft. La carte de Bouquenia évolue encore avec l’ajout de nouvelles terres, notamment le Biome Champi et 9 arènes de Dé à Coudre sont créées. Des nouvelles anomalies viennent s’ajouter au monde (différentes des anomalies actuelles). Création d’un nouveau Nether avec Biomes personnalisés.
+
+![Capture d'écran du Nether](../../../assets/wiki/nether-2015.jpg)
+
 ## 2016
 - Mars 2016 : Abandon du subreddit, création de l’ancien site web avec WordPress. Le site est alors hébergé sur le même serveur Linux que le serveur de jeu.
 - Avril 2016 : Un nouveau pack de texture est construit pour le serveur, gardant les textures des items, mais qui remplace les blocs par des textures du pack Conquest.

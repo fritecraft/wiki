@@ -167,4 +167,33 @@ Contient tous les objets permettant la construction de circuits en redstone.
 - Lampe à redstone
 - Bloc musical
 ### Images des boutiques
-  Contenu de la boutique Nuggetsgirl
+
+![Contenu de la boutique Nuggetsgirl](../../../assets/wiki/boutique-nuggetsgirl.png)
+*Contenu de la boutique Nuggetsgirl*
+
+![Contenu de la boutique Fritegirl](../../../assets/wiki/boutique-fritegirl.png)
+*Contenu de la boutique Fritegirl*
+
+![Contenu de la boutique Hamburgirl](../../../assets/wiki/boutique-hamburgirl.png)
+*Contenu de la boutique Hamburgirl*
+
+![Contenu de la boutique Soupegirl](../../../assets/wiki/boutique-soupegirl.png)
+*Contenu de la boutique Soupegirl*
+
+![Contenu de la boutique Sodagirl](../../../assets/wiki/boutique-sodagirl.png)
+*Contenu de la boutique Sodagirl*
+
+![Contenu de la boutique Candygirl](../../../assets/wiki/boutique-candygirl.png)
+*Contenu de la boutique Candygirl*
+
+![Contenu de la boutique Flurrygirl](../../../assets/wiki/boutique-flurrygirl.png)
+*Contenu de la boutique Flurrygirl*
+
+![Contenu de la boutique Fringirl](../../../assets/wiki/boutique-fringirl.png)
+*Contenu de la boutique Fringirl*
+
+![Contenu de la boutique Chocogirl](../../../assets/wiki/boutique-chocogirl.png)
+*Contenu de la boutique Chocogirl*
+
+![Contenu de la boutique Redstone](../../../assets/wiki/boutique-redstone.png)
+*Contenu de la boutique Redstone*
