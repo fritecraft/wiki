@@ -9,7 +9,6 @@ export default defineConfig({
   markdown: { remarkPlugins: [remarkBreaks] },
   // Anciennes URLs Wiki.js (avec accents) -> nouvelles
   redirects: {
-    '/tutoriels/modération': '/tutoriels/moderation',
     '/packs/raretés': '/packs/raretes',
   },
   integrations: [
