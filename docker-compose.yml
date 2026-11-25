@@ -1,0 +1,15 @@
+# Wiki public wiki.fritecraft.fr : site statique (Astro Starlight) servi par nginx.
+# Le tunnel Cloudflare existant route wiki.fritecraft.fr vers le port de l'hôte défini par WIKI_PORT.
+services:
+  wiki:
+    build: .
+    image: fritecraft-wiki:latest
+    container_name: fritecraft-wiki
+    restart: unless-stopped
+    ports:
+      - "${WIKI_PORT:-3000}:80"
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
