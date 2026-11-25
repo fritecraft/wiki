@@ -20,6 +20,7 @@ export default defineConfig({
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/fritecraft' },
       ],
+      customCss: ['./src/styles/items.css'],
       editLink: { baseUrl: 'https://github.com/fritecraft/wiki/edit/main/' },
       sidebar: [
         { label: 'Fritecraft', autogenerate: { directory: 'fritecraft' } },
@@ -27,6 +28,7 @@ export default defineConfig({
         { label: 'Lore', autogenerate: { directory: 'lore' } },
         { label: 'Tutoriels', autogenerate: { directory: 'tutoriels' } },
         { label: 'Packs', autogenerate: { directory: 'packs' } },
+        { label: 'Objets', autogenerate: { directory: 'objets' } },
       ],
     }),
   ],

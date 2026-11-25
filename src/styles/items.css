@@ -1,0 +1,31 @@
+/* Galeries d'icônes générées (section Objets) */
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+  gap: 0.75rem;
+  margin-block: 1rem;
+}
+.item-grid figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 0.5rem;
+  background: var(--sl-color-bg-nav);
+}
+.item-grid img {
+  image-rendering: pixelated; /* pixel-art net */
+  width: 64px;
+  height: 64px;
+  margin: 0;
+}
+.item-grid figcaption {
+  margin-top: 0.4rem;
+  font-size: var(--sl-text-xs);
+  line-height: 1.25;
+  color: var(--sl-color-gray-2);
+  overflow-wrap: anywhere;
+}
