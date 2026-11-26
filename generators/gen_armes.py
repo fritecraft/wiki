@@ -14,7 +14,7 @@ Usage :  python3 generators/gen_armes.py [chemin/vers/resourcepack]
   de l'inventaire ; ne PAS éditer les pages générées à la main
 - palier et dégâts de l'ancienne configuration MMOItems ne sont pas publiés (MMOItems sera recréé)
 """
-import re, shutil, sys, unicodedata
+import hashlib, re, shutil, sys, unicodedata
 from pathlib import Path
 import yaml
 from PIL import Image
@@ -71,13 +71,14 @@ def main():
             w, h = im.size
             px = max(1, round(TAILLE / max(w, h)))      # facteur entier : pixels nets, taille quasi uniforme
             im.save(OUT_IMG / fam / f'{a["id"]}.png', optimize=True)
+            ver = hashlib.md5((OUT_IMG / fam / f'{a["id"]}.png').read_bytes()).hexdigest()[:8]   # contourne le cache Cloudflare/navigateur
             letter = sort_key(a['nom'])[:1].upper()
             if grouped and letter != cur:
                 if open_grid: L += ['</div>', '']; open_grid = False
                 cur = letter; L += [f'## {letter}', '']
             if not open_grid: L.append('<div class="arme-grid">'); open_grid = True
             name = esc(a['nom']) + (' *' if a.get('nom_statut') == 'a_valider' else '')
-            L.append(f'<figure><div class="arme-icone"><img src="/armes/{fam}/{a["id"]}.png" alt="{esc(a["nom"])}" '
+            L.append(f'<figure><div class="arme-icone"><img src="/armes/{fam}/{a["id"]}.png?v={ver}" alt="{esc(a["nom"])}" '
                      f'width="{w * px}" height="{h * px}" loading="lazy"></div><figcaption>{name}</figcaption></figure>')
         if open_grid: L += ['</div>']
         (OUT_DOC / f'{slug}.md').write_text('\n'.join(L).rstrip() + '\n')

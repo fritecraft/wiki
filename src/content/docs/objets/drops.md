@@ -14,16 +14,16 @@ Les noms affichés sont provisoires : ils sont déduits des noms de fichiers.
 :::
 
 <div class="item-grid">
-<figure><img src="/items/drops/ash.png" alt="Ash" width="64" height="64" loading="lazy"><figcaption>Ash</figcaption></figure>
-<figure><img src="/items/drops/calimari.png" alt="Calimari" width="64" height="64" loading="lazy"><figcaption>Calimari</figcaption></figure>
-<figure><img src="/items/drops/carbon_bone.png" alt="Carbon Bone" width="64" height="64" loading="lazy"><figcaption>Carbon Bone</figcaption></figure>
-<figure><img src="/items/drops/creeper_hide.png" alt="Creeper Hide" width="64" height="64" loading="lazy"><figcaption>Creeper Hide</figcaption></figure>
-<figure><img src="/items/drops/dark_diamond.png" alt="Dark Diamond" width="64" height="64" loading="lazy"><figcaption>Dark Diamond</figcaption></figure>
-<figure><img src="/items/drops/endestpearl.png" alt="Endestpearl" width="64" height="64" loading="lazy"><figcaption>Endestpearl</figcaption></figure>
-<figure><img src="/items/drops/glowstone_vial.png" alt="Glowstone Vial" width="64" height="64" loading="lazy"><figcaption>Glowstone Vial</figcaption></figure>
-<figure><img src="/items/drops/phoenix_feather.png" alt="Phoenix Feather" width="64" height="64" loading="lazy"><figcaption>Phoenix Feather</figcaption></figure>
-<figure><img src="/items/drops/pig_leather.png" alt="Pig Leather" width="64" height="64" loading="lazy"><figcaption>Pig Leather</figcaption></figure>
-<figure><img src="/items/drops/redstone_vial.png" alt="Redstone Vial" width="64" height="64" loading="lazy"><figcaption>Redstone Vial</figcaption></figure>
-<figure><img src="/items/drops/witch_thumb.png" alt="Witch Thumb" width="64" height="64" loading="lazy"><figcaption>Witch Thumb</figcaption></figure>
-<figure><img src="/items/drops/zombacon.png" alt="Zombacon" width="64" height="64" loading="lazy"><figcaption>Zombacon</figcaption></figure>
+<figure><img src="/items/drops/ash.png?v=c9799dd2" alt="Ash" width="64" height="64" loading="lazy"><figcaption>Ash</figcaption></figure>
+<figure><img src="/items/drops/calimari.png?v=ce4d8780" alt="Calimari" width="64" height="64" loading="lazy"><figcaption>Calimari</figcaption></figure>
+<figure><img src="/items/drops/carbon_bone.png?v=c0a9db18" alt="Carbon Bone" width="64" height="64" loading="lazy"><figcaption>Carbon Bone</figcaption></figure>
+<figure><img src="/items/drops/creeper_hide.png?v=b6aabe56" alt="Creeper Hide" width="64" height="64" loading="lazy"><figcaption>Creeper Hide</figcaption></figure>
+<figure><img src="/items/drops/dark_diamond.png?v=2f55c7a1" alt="Dark Diamond" width="64" height="64" loading="lazy"><figcaption>Dark Diamond</figcaption></figure>
+<figure><img src="/items/drops/endestpearl.png?v=f87eafbf" alt="Endestpearl" width="64" height="64" loading="lazy"><figcaption>Endestpearl</figcaption></figure>
+<figure><img src="/items/drops/glowstone_vial.png?v=49654d8d" alt="Glowstone Vial" width="64" height="64" loading="lazy"><figcaption>Glowstone Vial</figcaption></figure>
+<figure><img src="/items/drops/phoenix_feather.png?v=b7eb8439" alt="Phoenix Feather" width="64" height="64" loading="lazy"><figcaption>Phoenix Feather</figcaption></figure>
+<figure><img src="/items/drops/pig_leather.png?v=f77274ae" alt="Pig Leather" width="64" height="64" loading="lazy"><figcaption>Pig Leather</figcaption></figure>
+<figure><img src="/items/drops/redstone_vial.png?v=e82cb485" alt="Redstone Vial" width="64" height="64" loading="lazy"><figcaption>Redstone Vial</figcaption></figure>
+<figure><img src="/items/drops/witch_thumb.png?v=69542be4" alt="Witch Thumb" width="64" height="64" loading="lazy"><figcaption>Witch Thumb</figcaption></figure>
+<figure><img src="/items/drops/zombacon.png?v=cc957fd8" alt="Zombacon" width="64" height="64" loading="lazy"><figcaption>Zombacon</figcaption></figure>
 </div>

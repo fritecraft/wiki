@@ -9,7 +9,7 @@ Usage :  python3 generators/gen_items.py [chemin/vers/resourcepack/_wiki]
 Les noms affichés sont dérivés des noms de fichiers (provisoire : voir l'issue
 « Harmoniser les noms des items » dans le Fritecraft Tracker).
 """
-import re, shutil, sys
+import hashlib, re, shutil, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -80,7 +80,8 @@ def main():
             if not open_grid:
                 lines.append('<div class="item-grid">'); open_grid = True
             name = esc(pretty(p.stem, prefix))
-            lines.append(f'<figure><img src="/items/{slug}/{p.name}" alt="{name}" width="64" height="64" loading="lazy"><figcaption>{name}</figcaption></figure>')
+            ver = hashlib.md5(p.read_bytes()).hexdigest()[:8]   # contourne le cache Cloudflare/navigateur
+            lines.append(f'<figure><img src="/items/{slug}/{p.name}?v={ver}" alt="{name}" width="64" height="64" loading="lazy"><figcaption>{name}</figcaption></figure>')
         close()
         (OUT_DOC / f'{slug}.md').write_text('\n'.join(lines).rstrip() + '\n')
         summary.append((slug, title, desc, len(files)))
