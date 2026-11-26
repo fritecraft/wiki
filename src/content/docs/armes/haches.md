@@ -20,10 +20,10 @@ Un astérisque (*) signale un nom provisoire (12 armes).
 <figure><div class="arme-icone"><img src="/armes/hache/balais.png?v=15569076" alt="Balais" width="120" height="120" loading="lazy"></div><figcaption>Balais</figcaption></figure>
 <figure><div class="arme-icone"><img src="/armes/hache/battle_gold.png?v=058d8f8e" alt="Battle Gold" width="112" height="112" loading="lazy"></div><figcaption>Battle Gold *</figcaption></figure>
 <figure><div class="arme-icone"><img src="/armes/hache/butterscotch.png?v=42a681be" alt="Butterscotch" width="92" height="120" loading="lazy"></div><figcaption>Butterscotch *</figcaption></figure>
-<figure><div class="arme-icone"><img src="/armes/hache/chainsaw_diamond.png?v=0974b998" alt="Chainsaw Diamond" width="112" height="112" loading="lazy"></div><figcaption>Chainsaw Diamond *</figcaption></figure>
-<figure><div class="arme-icone"><img src="/armes/hache/chainsaw_gold.png?v=d72749c7" alt="Chainsaw Gold" width="112" height="112" loading="lazy"></div><figcaption>Chainsaw Gold *</figcaption></figure>
-<figure><div class="arme-icone"><img src="/armes/hache/chainsaw_iron.png?v=fd626edf" alt="Chainsaw Iron" width="112" height="112" loading="lazy"></div><figcaption>Chainsaw Iron *</figcaption></figure>
-<figure><div class="arme-icone"><img src="/armes/hache/chainsaw_netherite.png?v=6dbdfdc4" alt="Chainsaw Netherite" width="112" height="112" loading="lazy"></div><figcaption>Chainsaw Netherite *</figcaption></figure>
+<figure><div class="arme-icone"><img src="/armes/hache/chainsaw_diamond.png?v=591ec835" alt="Chainsaw Diamond" width="112" height="112" loading="lazy"></div><figcaption>Chainsaw Diamond *</figcaption></figure>
+<figure><div class="arme-icone"><img src="/armes/hache/chainsaw_gold.png?v=46f4ec82" alt="Chainsaw Gold" width="112" height="112" loading="lazy"></div><figcaption>Chainsaw Gold *</figcaption></figure>
+<figure><div class="arme-icone"><img src="/armes/hache/chainsaw_iron.png?v=3eebab28" alt="Chainsaw Iron" width="112" height="112" loading="lazy"></div><figcaption>Chainsaw Iron *</figcaption></figure>
+<figure><div class="arme-icone"><img src="/armes/hache/chainsaw_netherite.png?v=2ca58fb1" alt="Chainsaw Netherite" width="112" height="112" loading="lazy"></div><figcaption>Chainsaw Netherite *</figcaption></figure>
 <figure><div class="arme-icone"><img src="/armes/hache/conifer.png?v=2670b7cd" alt="Conifer" width="120" height="120" loading="lazy"></div><figcaption>Conifer</figcaption></figure>
 <figure><div class="arme-icone"><img src="/armes/hache/euphoria.png?v=2c15ae60" alt="Euphoria" width="91" height="105" loading="lazy"></div><figcaption>Euphoria</figcaption></figure>
 <figure><div class="arme-icone"><img src="/armes/hache/darkscythe.png?v=692f60fe" alt="Faux du tourment" width="112" height="128" loading="lazy"></div><figcaption>Faux du tourment</figcaption></figure>
