@@ -26,7 +26,6 @@ Les articles sont organisés par groupes selon leur contenu.
 
 ## Tutoriels
 
-- [👓 Optifine](/tutoriels/optifine)
 - [⌚ Menu](/tutoriels/menu)
 - [⛪ Architectes](/tutoriels/architectes)
 

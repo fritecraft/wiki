@@ -1,5 +1,6 @@
 ---
 title: "Cartes"
+draft: true
 ---
 
 ## Dynmaps Fritecraft
