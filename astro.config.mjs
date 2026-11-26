@@ -29,6 +29,7 @@ export default defineConfig({
         { label: 'Tutoriels', autogenerate: { directory: 'tutoriels' } },
         { label: 'Packs', autogenerate: { directory: 'packs' } },
         { label: 'Objets', autogenerate: { directory: 'objets' } },
+        { label: 'Armes', autogenerate: { directory: 'armes' } },
         { label: 'Progrès', autogenerate: { directory: 'progres' } },
       ],
     }),

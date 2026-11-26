@@ -35,3 +35,9 @@ Les articles sont organisés par groupes selon leur contenu.
 - [🍬 Items](/packs/items)
 - [🏆 Datapack](/packs/datapack)
 - [💎 Raretés](/packs/raretes)
+
+## Collections
+
+- [⚔️ Armes](/armes/) — Épées et haches personnalisées
+- [🍬 Objets](/objets/) — Nourritures, potions, tomes, objets de quête…
+- [🏆 Progrès](/progres/) — Les progrès du datapack, par divinité
