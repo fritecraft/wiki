@@ -79,7 +79,7 @@ def main():
             if not open_grid: L.append('<div class="arme-grid">'); open_grid = True
             name = esc(a['nom']) + (' *' if a.get('nom_statut') == 'a_valider' else '')
             L.append(f'<figure><div class="arme-icone"><img src="/armes/{fam}/{a["id"]}.png?v={ver}" alt="{esc(a["nom"])}" '
-                     f'width="{w * px}" height="{h * px}" loading="lazy"></div><figcaption>{name}</figcaption></figure>')
+                     f'width="{w * px}" height="{h * px}" loading="lazy"></div><figcaption>{name}<code class="item-id">fritecraft:{a["id"]}</code></figcaption></figure>')
         if open_grid: L += ['</div>']
         (OUT_DOC / f'{slug}.md').write_text('\n'.join(L).rstrip() + '\n')
         summary.append((slug, f['nom'], len(armes)))

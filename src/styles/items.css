@@ -68,3 +68,18 @@
   color: var(--sl-color-gray-2);
   overflow-wrap: anywhere;
 }
+
+/* Identifiant technique sous le nom (utile aux admins) */
+.item-id {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.65rem;
+  color: var(--sl-color-gray-3);
+  background: none;
+  padding: 0;
+  overflow-wrap: anywhere;
+  user-select: all;
+}
+/* Miniatures des états d'un objet (tension, cassé…) */
+.item-etats { display: flex; gap: 2px; margin-top: 0.3rem; flex-wrap: wrap; justify-content: center; }
+.item-grid .item-etats img { width: 24px; height: 24px; }
