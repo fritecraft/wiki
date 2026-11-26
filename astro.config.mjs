@@ -28,6 +28,7 @@ export default defineConfig({
         { label: 'Lore', autogenerate: { directory: 'lore' } },
         { label: 'Tutoriels', autogenerate: { directory: 'tutoriels' } },
         { label: 'Packs', autogenerate: { directory: 'packs' } },
+        { label: 'Boutiques', autogenerate: { directory: 'boutiques' } },
         { label: 'Objets', autogenerate: { directory: 'objets' } },
         { label: 'Armes', autogenerate: { directory: 'armes' } },
         { label: 'Progrès', autogenerate: { directory: 'progres' } },

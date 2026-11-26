@@ -21,3 +21,4 @@ Pour se rendre compte de la valeur des émeraudes :
 - /sellall hand (Sell all items that you are holding in your hand)
 - /sellgui This command opens a empty inventory where you can drop items in to sell, closing the inventory will complete the transaction and will give the items that couldn't be sold back to the player
 ## Valeurs
+Les prix d'achat et de vente de chaque objet, boutique par boutique, sont dans la section [Boutiques](/boutiques/).
