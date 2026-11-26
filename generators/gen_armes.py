@@ -5,8 +5,10 @@ Usage :  python3 generators/gen_armes.py [chemin/vers/resourcepack]
 
 - une page par famille (src/content/docs/armes/<famille>.md) + un index
 - icônes recadrées (première image des textures animées) dans public/armes/<famille>/<id>.png
-- toutes les icônes sont affichées avec des pixels de dessin de même taille (PX px écran) : certaines textures
-  (64x64) sont des dessins de résolution 32 agrandis par blocs 2x2, on les ramène à leur résolution réelle
+- toutes les icônes ont à peu près la même taille à l'écran (TAILLE px sur le grand côté) : certaines armes sont
+  dessinées sur 15 px, d'autres sur 30 ; chacune est agrandie d'un facteur ENTIER (pixels nets) qui s'approche le
+  plus de la taille voulue. Les textures 64x64 qui sont des agrandissements par blocs 2x2 d'un dessin de
+  résolution 32 sont d'abord ramenées à leur résolution réelle
 - l'illustration est recadrée sur sa zone non transparente (le grand canevas vide n'apporte rien au wiki)
 - les pages et icônes sont commitées (le déploiement ne voit que GitHub) : relancer après un changement
   de l'inventaire ; ne PAS éditer les pages générées à la main
@@ -23,7 +25,7 @@ INV = PACK / 'inventaire'
 TEX = PACK / 'assets/minecraft/textures/fritecraft'
 OUT_IMG = ROOT / 'public' / 'armes'
 OUT_DOC = ROOT / 'src' / 'content' / 'docs' / 'armes'
-PX = 4  # pixels écran par pixel de dessin (après réduction des agrandissements par blocs)
+TAILLE = 112  # taille visée à l'écran (px) du grand côté de l'illustration
 
 def block_factor(im):
     """Plus grand f (4, 2) tel que l'image soit un agrandissement par blocs f x f d'une image plus petite."""
@@ -55,8 +57,8 @@ def main():
              f'sidebar:\n  order: {order + 1}', '---', '',
              '<!-- Page générée par generators/gen_armes.py depuis l\'inventaire du resourcepack : ne pas modifier à la main. -->', '',
              f'Fritecraft compte **{len(armes)} {f["nom"].lower()}** aux noms et aux textures uniques.', '',
-             ":::note\nLes illustrations sont recadrées et affichées avec des pixels de même taille : "
-             "la taille à l'écran reflète le dessin de l'arme, pas la taille de sa texture dans le jeu."
+             ":::note\nLes illustrations sont recadrées et agrandies à une taille commune pour faciliter la comparaison : "
+             "la taille affichée ne reflète pas la taille de l'arme en jeu."
              + (f"\n\nUn astérisque (*) signale un nom provisoire ({prov} armes)." if prov else '') + "\n:::", '']
         grouped = len(armes) > 100; cur = None; open_grid = False
         for a in armes:
@@ -67,6 +69,7 @@ def main():
             bbox = im.getchannel('A').getbbox()
             if bbox: im = im.crop(bbox)                                   # recadrage sur le dessin
             w, h = im.size
+            px = max(1, round(TAILLE / max(w, h)))      # facteur entier : pixels nets, taille quasi uniforme
             im.save(OUT_IMG / fam / f'{a["id"]}.png', optimize=True)
             letter = sort_key(a['nom'])[:1].upper()
             if grouped and letter != cur:
@@ -75,7 +78,7 @@ def main():
             if not open_grid: L.append('<div class="arme-grid">'); open_grid = True
             name = esc(a['nom']) + (' *' if a.get('nom_statut') == 'a_valider' else '')
             L.append(f'<figure><div class="arme-icone"><img src="/armes/{fam}/{a["id"]}.png" alt="{esc(a["nom"])}" '
-                     f'width="{w * PX}" height="{h * PX}" loading="lazy"></div><figcaption>{name}</figcaption></figure>')
+                     f'width="{w * px}" height="{h * px}" loading="lazy"></div><figcaption>{name}</figcaption></figure>')
         if open_grid: L += ['</div>']
         (OUT_DOC / f'{slug}.md').write_text('\n'.join(L).rstrip() + '\n')
         summary.append((slug, f['nom'], len(armes)))

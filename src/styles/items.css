@@ -30,7 +30,7 @@
   overflow-wrap: anywhere;
 }
 
-/* Galeries d'armes générées : pixels de dessin de même taille, illustrations recadrées */
+/* Galeries d'armes générées : illustrations recadrées et affichées à une taille commune */
 .arme-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
@@ -50,7 +50,7 @@
 }
 .arme-icone {
   flex: 1;
-  min-height: 72px;
+  min-height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
