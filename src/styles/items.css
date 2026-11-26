@@ -85,4 +85,7 @@
 .item-grid .item-etats img { width: 24px; height: 24px; }
 
 /* Icône d'objet dans les tableaux de prix des boutiques */
-.shop-ico { width: 32px; height: 32px; vertical-align: middle; margin: 0 0.4rem 0 0; image-rendering: pixelated; }
+.sl-markdown-content td .shop-ico {
+  display: inline-block !important; /* Starlight met les images en bloc : on veut icône et nom sur la même ligne */
+  width: 32px; height: 32px; vertical-align: middle; margin: 0 0.5rem 0 0 !important; image-rendering: pixelated;
+}
