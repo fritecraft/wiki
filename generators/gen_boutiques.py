@@ -7,6 +7,7 @@ Source : le dossier de configuration du plugin de shop (EconomyShopGUI), fichier
 sauvegarde du serveur 1.19 (archives/fritecraft_1.19_2024-01-31/volumes/EconomyShopGUI) : la config locale du shop est la meilleure
 source des prix. Relancer avec le nouveau dossier quand le shop du serveur 26.3 sera configuré.
 Les noms français des objets viennent du fichier de langue du jeu (téléchargé une fois dans generators/.cache, non commité).
+Les icônes (rendus d'inventaire 64x64 des objets du jeu, depuis mc.nerothe.com) sont téléchargées une fois dans public/boutiques/icones/ et commitées.
 Les pages générées sont commitées ; ne PAS les éditer à la main.
 """
 import json, shutil, sys, unicodedata, urllib.request
@@ -16,6 +17,8 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT.parent / 'archives/fritecraft_1.19_2024-01-31/volumes/EconomyShopGUI'
 OUT = ROOT / 'src/content/docs/boutiques'
+ICONES = ROOT / 'public/boutiques/icones'
+ICON_URL = 'https://mc.nerothe.com/img/1.21.4/minecraft_{}.png'
 CACHE = ROOT / 'generators/.cache/fr_fr.json'
 LANG_URL = 'https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/lang/fr_fr.json'
 
@@ -46,6 +49,14 @@ def nom(L, mat, it):
         if f'{p}.minecraft.{k}' in L: return L[f'{p}.minecraft.{k}']
     sys.exit(f'Pas de nom français pour {mat}')
 
+def icone(mat):
+    f = ICONES / f'{mat.lower()}.png'
+    if not f.exists():
+        ICONES.mkdir(parents=True, exist_ok=True)
+        req = urllib.request.Request(ICON_URL.format(mat.lower()), headers={'User-Agent': 'wiki-icons'})
+        with urllib.request.urlopen(req, timeout=60) as r: f.write_bytes(r.read())
+    return f'/boutiques/icones/{f.name}'
+
 def prix(x):
     if x < 0: return '—'          # -1 dans la config : opération impossible dans cette boutique
     s = f'{x:.2f}'.rstrip('0').rstrip('.')
@@ -66,14 +77,14 @@ def main():
             for it in (pg.get('items') or {}).values():
                 lot = it.get('stack-size')
                 n = nom(L, it['material'], it) + (f' (lot de {lot})' if lot and lot > 1 else '')
-                lignes.append((n, it['buy'], it['sell']))
+                lignes.append((n, it['buy'], it['sell'], icone(it['material'])))
         lignes.sort(key=lambda t: cle(t[0]))
         P = ['---', f'title: "{titre}"', f'description: "{desc}"', f'sidebar:\n  order: {order}', '---', '',
              '<!-- Page générée par generators/gen_boutiques.py depuis la configuration du shop : ne pas modifier à la main. -->', '',
              f'{desc} **{len(lignes)} objets.**', '',
              'Prix en émeraudes (un bloc d\'émeraude vaut 9 émeraudes). Un tiret (—) indique que l\'opération est impossible dans cette boutique.', '',
              '| Objet | Achat | Vente |', '| --- | ---: | ---: |']
-        P += [f'| {n} | {prix(b)} | {prix(s)} |' for n, b, s in lignes]
+        P += [f'| <img class="shop-ico" src="{i}" alt="" width="32" height="32" loading="lazy"> {n} | {prix(b)} | {prix(s)} |' for n, b, s, i in lignes]
         (OUT / f'{fic.lower()}.md').write_text('\n'.join(P) + '\n', encoding='utf-8')
         index.append((fic.lower(), titre, desc, len(lignes))); total += len(lignes)
         print(f'{fic:12} {len(lignes):3} objets')
