@@ -72,7 +72,7 @@ def main():
             roles = o.get('textures') or {}
             if len(roles) > 1:
                 vus = {o['texture']}; mini = []
-                for r, p in sorted(roles.items()):
+                for r, p in sorted(roles.items(), key=lambda kv: list(ETATS).index(kv[0]) if kv[0] in ETATS else 99):
                     if r in ETATS and p not in vus and not (r == 'icon' and o['texture'] == p):
                         vus.add(p)
                         try: u = sauver(premiere_image(p), fam, f'{o["id"]}_{r}.png')
