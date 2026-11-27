@@ -14,211 +14,183 @@ Chaque action ci-dessous fait gagner de l'XP d'adoration à **Nuggetsgirl**. **1
 
 ## Casser des blocs
 
-Casser ces blocs.
-
 | Cible | XP |
 | --- | ---: |
-| Bambou | 1 |
-| Blé (à maturité) | 2 |
-| Bleuet | 2 |
-| Carottes (à maturité) | 2 |
-| Minerai de lapis-lazuli | 7 |
-| Minerai de lapis-lazuli des abîmes | 12 |
+| <img class="shop-ico" src="/boutiques/icones/bamboo.png" alt="" width="32" height="32" loading="lazy"> Bambou | 1 |
+| <img class="shop-ico" src="/boutiques/icones/wheat.png" alt="" width="32" height="32" loading="lazy"> Blé (à maturité) | 2 |
+| <img class="shop-ico" src="/boutiques/icones/cornflower.png" alt="" width="32" height="32" loading="lazy"> Bleuet | 2 |
+| <img class="shop-ico" src="/boutiques/icones/carrot.png" alt="" width="32" height="32" loading="lazy"> Carottes (à maturité) | 2 |
+| <img class="shop-ico" src="/boutiques/icones/lapis_ore.png" alt="" width="32" height="32" loading="lazy"> Minerai de lapis-lazuli | 7 |
+| <img class="shop-ico" src="/boutiques/icones/deepslate_lapis_ore.png" alt="" width="32" height="32" loading="lazy"> Minerai de lapis-lazuli des abîmes | 12 |
 
 ## Poser des blocs
 
-Poser ces blocs.
-
 | Cible | XP |
 | --- | ---: |
-| Oeuf de renifleur | 40 |
+| <img class="shop-ico" src="/boutiques/icones/sniffer_egg.png" alt="" width="32" height="32" loading="lazy"> Oeuf de renifleur | 40 |
 
 ## Récolter dans les blocs
 
-Récolter dans ces blocs (baies, miel, compost…).
-
 | Cible | XP |
 | --- | ---: |
-| Composteur | 10 |
+| <img class="shop-ico" src="/boutiques/icones/composter.png" alt="" width="32" height="32" loading="lazy"> Composteur | 10 |
 
 ## Brosser
 
-Brosser ces blocs avec un pinceau.
-
 | Cible | XP |
 | --- | ---: |
-| Gravier suspect | 15 |
-| Sable suspect | 15 |
+| <img class="shop-ico" src="/boutiques/icones/suspicious_gravel.png" alt="" width="32" height="32" loading="lazy"> Gravier suspect | 15 |
+| <img class="shop-ico" src="/boutiques/icones/suspicious_sand.png" alt="" width="32" height="32" loading="lazy"> Sable suspect | 15 |
 
 ## Tuer des mobs
 
-Tuer ces créatures.
-
 | Cible | XP |
 | --- | ---: |
-| Ravageur | 100 |
-| Vex | 40 |
-| Warden | 500 |
+| <img class="shop-ico" src="/boutiques/icones/ravager_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Ravageur | 100 |
+| <img class="shop-ico" src="/boutiques/icones/vex_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Vex | 40 |
+| <img class="shop-ico" src="/boutiques/icones/warden_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Warden | 500 |
 
 ## Faire se reproduire des animaux
 
-Faire se reproduire ces animaux.
-
 | Cible | XP |
 | --- | ---: |
-| Cheval | 20 |
-| Loup | 20 |
-| Mouton | 20 |
-| Poule | 20 |
-| Renifleur | 50 |
-| Tatou | 30 |
+| <img class="shop-ico" src="/boutiques/icones/horse_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Cheval | 20 |
+| <img class="shop-ico" src="/boutiques/icones/wolf_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Loup | 20 |
+| <img class="shop-ico" src="/boutiques/icones/sheep_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Mouton | 20 |
+| <img class="shop-ico" src="/boutiques/icones/chicken_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Poule | 20 |
+| <img class="shop-ico" src="/boutiques/icones/sniffer_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Renifleur | 50 |
+| <img class="shop-ico" src="/boutiques/icones/armadillo_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Tatou | 30 |
 
 ## Apprivoiser des animaux
 
-Apprivoiser ces animaux.
-
 | Cible | XP |
 | --- | ---: |
-| Cheval | 50 |
-| Loup | 50 |
+| <img class="shop-ico" src="/boutiques/icones/horse_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Cheval | 50 |
+| <img class="shop-ico" src="/boutiques/icones/wolf_spawn_egg.png" alt="" width="32" height="32" loading="lazy"> Loup | 50 |
 
 ## Tondre des moutons
 
-Tondre des moutons de ces couleurs.
-
 | Cible | XP |
 | --- | ---: |
-| Blanc | 10 |
-| Bleu | 10 |
-| Bleu clair | 10 |
-| Cyan | 10 |
-| Gris | 10 |
-| Gris clair | 10 |
-| Jaune | 10 |
-| Magenta | 10 |
-| Marron | 10 |
-| Noir | 10 |
-| Orange | 10 |
-| Rose | 10 |
-| Rouge | 10 |
-| Vert | 10 |
-| Vert clair | 10 |
-| Violet | 10 |
+| <img class="shop-ico" src="/boutiques/icones/white_wool.png" alt="" width="32" height="32" loading="lazy"> Blanc | 10 |
+| <img class="shop-ico" src="/boutiques/icones/blue_wool.png" alt="" width="32" height="32" loading="lazy"> Bleu | 10 |
+| <img class="shop-ico" src="/boutiques/icones/light_blue_wool.png" alt="" width="32" height="32" loading="lazy"> Bleu clair | 10 |
+| <img class="shop-ico" src="/boutiques/icones/cyan_wool.png" alt="" width="32" height="32" loading="lazy"> Cyan | 10 |
+| <img class="shop-ico" src="/boutiques/icones/gray_wool.png" alt="" width="32" height="32" loading="lazy"> Gris | 10 |
+| <img class="shop-ico" src="/boutiques/icones/light_gray_wool.png" alt="" width="32" height="32" loading="lazy"> Gris clair | 10 |
+| <img class="shop-ico" src="/boutiques/icones/yellow_wool.png" alt="" width="32" height="32" loading="lazy"> Jaune | 10 |
+| <img class="shop-ico" src="/boutiques/icones/magenta_wool.png" alt="" width="32" height="32" loading="lazy"> Magenta | 10 |
+| <img class="shop-ico" src="/boutiques/icones/brown_wool.png" alt="" width="32" height="32" loading="lazy"> Marron | 10 |
+| <img class="shop-ico" src="/boutiques/icones/black_wool.png" alt="" width="32" height="32" loading="lazy"> Noir | 10 |
+| <img class="shop-ico" src="/boutiques/icones/orange_wool.png" alt="" width="32" height="32" loading="lazy"> Orange | 10 |
+| <img class="shop-ico" src="/boutiques/icones/pink_wool.png" alt="" width="32" height="32" loading="lazy"> Rose | 10 |
+| <img class="shop-ico" src="/boutiques/icones/red_wool.png" alt="" width="32" height="32" loading="lazy"> Rouge | 10 |
+| <img class="shop-ico" src="/boutiques/icones/green_wool.png" alt="" width="32" height="32" loading="lazy"> Vert | 10 |
+| <img class="shop-ico" src="/boutiques/icones/lime_wool.png" alt="" width="32" height="32" loading="lazy"> Vert clair | 10 |
+| <img class="shop-ico" src="/boutiques/icones/purple_wool.png" alt="" width="32" height="32" loading="lazy"> Violet | 10 |
 
 ## Manger
 
-Manger ces aliments.
-
 | Cible | XP |
 | --- | ---: |
-| Carottes | 10 |
-| Pain | 30 |
-| Poulet rôti | 50 |
+| <img class="shop-ico" src="/boutiques/icones/carrot.png" alt="" width="32" height="32" loading="lazy"> Carottes | 10 |
+| <img class="shop-ico" src="/boutiques/icones/bread.png" alt="" width="32" height="32" loading="lazy"> Pain | 30 |
+| <img class="shop-ico" src="/boutiques/icones/cooked_chicken.png" alt="" width="32" height="32" loading="lazy"> Poulet rôti | 50 |
 
 ## Cuire (four, fumoir…)
 
-Faire cuire ces aliments.
-
 | Cible | XP |
 | --- | ---: |
-| Poulet rôti | 25 |
+| <img class="shop-ico" src="/boutiques/icones/cooked_chicken.png" alt="" width="32" height="32" loading="lazy"> Poulet rôti | 25 |
 
 ## Fondre ou cuire (fourneau)
 
-Obtenir ces objets au fourneau.
-
 | Cible | XP |
 | --- | ---: |
-| Grès lisse | 5 |
-| Poulet rôti | 25 |
-| Roche | 2 |
+| <img class="shop-ico" src="/boutiques/icones/smooth_sandstone.png" alt="" width="32" height="32" loading="lazy"> Grès lisse | 5 |
+| <img class="shop-ico" src="/boutiques/icones/cooked_chicken.png" alt="" width="32" height="32" loading="lazy"> Poulet rôti | 25 |
+| <img class="shop-ico" src="/boutiques/icones/stone.png" alt="" width="32" height="32" loading="lazy"> Roche | 2 |
 
 ## Fabriquer
 
-Fabriquer ces objets.
-
 | Cible | XP |
 | --- | ---: |
-| Bibliothèque | 20 |
-| Boussole | 25 |
-| Carte vierge | 13 |
-| Harnais blanc | 20 |
-| Harnais bleu | 20 |
-| Harnais bleu clair | 20 |
-| Harnais cyan | 20 |
-| Harnais gris | 20 |
-| Harnais gris clair | 20 |
-| Harnais jaune | 20 |
-| Harnais magenta | 20 |
-| Harnais marron | 20 |
-| Harnais noir | 20 |
-| Harnais orange | 20 |
-| Harnais rose | 20 |
-| Harnais rouge | 20 |
-| Harnais vert | 20 |
-| Harnais vert clair | 20 |
-| Harnais violet | 20 |
-| Houe en diamant | 35 |
-| Houe en fer | 20 |
-| Houe en netherite | 50 |
-| Laisse | 12 |
-| Longue-vue | 25 |
-| Métier à tisser | 25 |
-| Pain | 9 |
-| Table de cartographie | 25 |
-| Tapis blanc | 5 |
-| Tapis bleu | 5 |
-| Tapis bleu clair | 5 |
-| Tapis cyan | 5 |
-| Tapis gris | 5 |
-| Tapis gris clair | 5 |
-| Tapis jaune | 5 |
-| Tapis magenta | 5 |
-| Tapis orange | 5 |
-| Tapis rose | 5 |
-| Tapis rouge | 5 |
-| Tapis vert | 5 |
-| Tapis vert clair | 5 |
-| Tapis violet | 5 |
-| Teinture bleue | 12 |
+| <img class="shop-ico" src="/boutiques/icones/bookshelf.png" alt="" width="32" height="32" loading="lazy"> Bibliothèque | 20 |
+| <img class="shop-ico" src="/boutiques/icones/compass.png" alt="" width="32" height="32" loading="lazy"> Boussole | 25 |
+| <img class="shop-ico" src="/boutiques/icones/map.png" alt="" width="32" height="32" loading="lazy"> Carte vierge | 13 |
+| <img class="shop-ico" src="/boutiques/icones/white_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais blanc | 20 |
+| <img class="shop-ico" src="/boutiques/icones/blue_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais bleu | 20 |
+| <img class="shop-ico" src="/boutiques/icones/light_blue_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais bleu clair | 20 |
+| <img class="shop-ico" src="/boutiques/icones/cyan_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais cyan | 20 |
+| <img class="shop-ico" src="/boutiques/icones/gray_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais gris | 20 |
+| <img class="shop-ico" src="/boutiques/icones/light_gray_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais gris clair | 20 |
+| <img class="shop-ico" src="/boutiques/icones/yellow_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais jaune | 20 |
+| <img class="shop-ico" src="/boutiques/icones/magenta_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais magenta | 20 |
+| <img class="shop-ico" src="/boutiques/icones/brown_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais marron | 20 |
+| <img class="shop-ico" src="/boutiques/icones/black_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais noir | 20 |
+| <img class="shop-ico" src="/boutiques/icones/orange_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais orange | 20 |
+| <img class="shop-ico" src="/boutiques/icones/pink_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais rose | 20 |
+| <img class="shop-ico" src="/boutiques/icones/red_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais rouge | 20 |
+| <img class="shop-ico" src="/boutiques/icones/green_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais vert | 20 |
+| <img class="shop-ico" src="/boutiques/icones/lime_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais vert clair | 20 |
+| <img class="shop-ico" src="/boutiques/icones/purple_harness.png" alt="" width="32" height="32" loading="lazy"> Harnais violet | 20 |
+| <img class="shop-ico" src="/boutiques/icones/diamond_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en diamant | 35 |
+| <img class="shop-ico" src="/boutiques/icones/iron_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en fer | 20 |
+| <img class="shop-ico" src="/boutiques/icones/netherite_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en netherite | 50 |
+| <img class="shop-ico" src="/boutiques/icones/lead.png" alt="" width="32" height="32" loading="lazy"> Laisse | 12 |
+| <img class="shop-ico" src="/boutiques/icones/spyglass.png" alt="" width="32" height="32" loading="lazy"> Longue-vue | 25 |
+| <img class="shop-ico" src="/boutiques/icones/loom.png" alt="" width="32" height="32" loading="lazy"> Métier à tisser | 25 |
+| <img class="shop-ico" src="/boutiques/icones/bread.png" alt="" width="32" height="32" loading="lazy"> Pain | 9 |
+| <img class="shop-ico" src="/boutiques/icones/cartography_table.png" alt="" width="32" height="32" loading="lazy"> Table de cartographie | 25 |
+| <img class="shop-ico" src="/boutiques/icones/white_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis blanc | 5 |
+| <img class="shop-ico" src="/boutiques/icones/blue_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis bleu | 5 |
+| <img class="shop-ico" src="/boutiques/icones/light_blue_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis bleu clair | 5 |
+| <img class="shop-ico" src="/boutiques/icones/cyan_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis cyan | 5 |
+| <img class="shop-ico" src="/boutiques/icones/gray_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis gris | 5 |
+| <img class="shop-ico" src="/boutiques/icones/light_gray_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis gris clair | 5 |
+| <img class="shop-ico" src="/boutiques/icones/yellow_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis jaune | 5 |
+| <img class="shop-ico" src="/boutiques/icones/magenta_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis magenta | 5 |
+| <img class="shop-ico" src="/boutiques/icones/orange_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis orange | 5 |
+| <img class="shop-ico" src="/boutiques/icones/pink_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis rose | 5 |
+| <img class="shop-ico" src="/boutiques/icones/red_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis rouge | 5 |
+| <img class="shop-ico" src="/boutiques/icones/green_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis vert | 5 |
+| <img class="shop-ico" src="/boutiques/icones/lime_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis vert clair | 5 |
+| <img class="shop-ico" src="/boutiques/icones/purple_carpet.png" alt="" width="32" height="32" loading="lazy"> Tapis violet | 5 |
+| <img class="shop-ico" src="/boutiques/icones/blue_dye.png" alt="" width="32" height="32" loading="lazy"> Teinture bleue | 12 |
 
 ## Préparer des potions
 
-Préparer des potions avec ces ingrédients.
-
 | Cible | XP |
 | --- | ---: |
-| Patte de lapin | 75 |
+| <img class="shop-ico" src="/boutiques/icones/rabbit_foot.png" alt="" width="32" height="32" loading="lazy"> Patte de lapin | 75 |
 
 ## Réparer
 
-Réparer ces objets.
-
 | Cible | XP |
 | --- | ---: |
-| Houe en cuivre | 5 |
-| Houe en diamant | 20 |
-| Houe en fer | 10 |
-| Houe en netherite | 30 |
+| <img class="shop-ico" src="/boutiques/icones/copper_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en cuivre | 5 |
+| <img class="shop-ico" src="/boutiques/icones/diamond_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en diamant | 20 |
+| <img class="shop-ico" src="/boutiques/icones/iron_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en fer | 10 |
+| <img class="shop-ico" src="/boutiques/icones/netherite_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en netherite | 30 |
 
 ## Enchanter
 
-Enchanter ces objets :
+### Objets enchantés
 
 | Cible | XP |
 | --- | ---: |
-| Houe en cuivre | 15 |
-| Houe en diamant | 60 |
-| Houe en fer | 30 |
-| Houe en netherite | 90 |
+| <img class="shop-ico" src="/boutiques/icones/copper_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en cuivre | 15 |
+| <img class="shop-ico" src="/boutiques/icones/diamond_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en diamant | 60 |
+| <img class="shop-ico" src="/boutiques/icones/iron_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en fer | 30 |
+| <img class="shop-ico" src="/boutiques/icones/netherite_hoe.png" alt="" width="32" height="32" loading="lazy"> Houe en netherite | 90 |
 
-Obtenir ces enchantements :
+### Enchantements
 
 | Cible | XP |
 | --- | ---: |
-| Chute amortie I | 50 |
-| Chute amortie II | 100 |
-| Chute amortie III | 150 |
-| Chute amortie IV | 200 |
-| Recul I | 50 |
-| Recul II | 100 |
+| <img class="shop-ico" src="/boutiques/icones/enchanted_book.png" alt="" width="32" height="32" loading="lazy"> Chute amortie I | 50 |
+| <img class="shop-ico" src="/boutiques/icones/enchanted_book.png" alt="" width="32" height="32" loading="lazy"> Chute amortie II | 100 |
+| <img class="shop-ico" src="/boutiques/icones/enchanted_book.png" alt="" width="32" height="32" loading="lazy"> Chute amortie III | 150 |
+| <img class="shop-ico" src="/boutiques/icones/enchanted_book.png" alt="" width="32" height="32" loading="lazy"> Chute amortie IV | 200 |
+| <img class="shop-ico" src="/boutiques/icones/enchanted_book.png" alt="" width="32" height="32" loading="lazy"> Recul I | 50 |
+| <img class="shop-ico" src="/boutiques/icones/enchanted_book.png" alt="" width="32" height="32" loading="lazy"> Recul II | 100 |
