@@ -41,19 +41,14 @@ De nombreux types d'actions peuvent récompenser les joueurs :
 - Reproduction d'animaux
 - Traire une vache
 - Tailler un mouton
-### Nuggetsgirl
-- Casser des blocs
-- Lapis
-- Blé
-- Carrotes
-- Bamboo
-- Azalea
--  
-### Fritegirl
-### Hamburgirl
-### Soupegirl
-### Sodagirl
-### Candygirl
-### Flurrygirl
-### Chocogirl
-### Fringirl
+## Actions de chaque divinité
+Chaque divinité récompense ses propres actions, avec une valeur d'XP d'adoration pour chacune. Le détail est dans la section [Adorations](/adorations/) :
+- [Fritegirl](/adorations/fritegirl/)
+- [Hamburgirl](/adorations/hamburgirl/)
+- [Nuggetsgirl](/adorations/nuggetsgirl/)
+- [Soupegirl](/adorations/soupegirl/)
+- [Sodagirl](/adorations/sodagirl/)
+- [Candygirl](/adorations/candygirl/)
+- [Flurrygirl](/adorations/flurrygirl/)
+- [Chocogirl](/adorations/chocogirl/)
+- [Fringirl](/adorations/fringirl/)

@@ -26,6 +26,7 @@ export default defineConfig({
         { label: 'Fritecraft', autogenerate: { directory: 'fritecraft' } },
         { label: 'Aventures', autogenerate: { directory: 'aventures' } },
         { label: 'Lore', autogenerate: { directory: 'lore' } },
+        { label: 'Adorations', autogenerate: { directory: 'adorations' } },
         { label: 'Tutoriels', autogenerate: { directory: 'tutoriels' } },
         { label: 'Packs', autogenerate: { directory: 'packs' } },
         { label: 'Boutiques', autogenerate: { directory: 'boutiques' } },
